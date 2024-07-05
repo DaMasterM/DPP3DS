@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DPP3DS.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{73BF96B7-C559-4808-A16C-04E3B3C0C0B1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DPP3DS.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DPP3DSEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C17F1B4D-29F5-4B11-AAF6-2F0A3528D949}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\DPP3DS">
+      <UniqueIdentifier>{9BEF8EC4-6481-461A-A31C-0BA64540F6D0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\DPP3DS\Agent.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\Agent.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\BasicRoom.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\BasicRoom.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\CGALWrapperUtils.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\CGALWrapperUtils.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\Chaser.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\Chaser.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\ConnectivityGraph.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\ConnectivityGraph.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\CoverArea.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\CoverArea.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\DPP3DS\DPP3DS.Build.cs">
+      <Filter>Source\DPP3DS</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DPP3DS\DPP3DS.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\DPP3DS.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\DPP3DSGameModeBase.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\DPP3DSGameModeBase.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\Graph.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\Graph.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\HelperVertex.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\HelperVertex.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\NavigationConfiguration.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\NavigationConfiguration.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\Obstacle.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\Obstacle.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\ObstacleCollector.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\ObstacleCollector.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\PathPlanningSave.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\PathPlanningSave.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\PRM.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\PRM.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\PRMBuildSave.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\PRMBuildSave.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\PRMCollector.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\PRMCollector.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\PRMEdge.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\PRMEdge.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\PRMGenerator.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\PRMGenerator.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\ProjectionCuboid.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\ProjectionCuboid.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\RoomCollector.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\RoomCollector.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\SurfaceArea.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\SurfaceArea.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\Target.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\Target.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\Utils.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\Utils.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DPP3DS\Vertex.cpp">
+      <Filter>Source\DPP3DS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DPP3DS\Vertex.h">
+      <Filter>Source\DPP3DS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
